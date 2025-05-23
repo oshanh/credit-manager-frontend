@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const apiClient = axios.create({
-  baseURL: "http://107.23.177.112:8081/api/v1",
+  baseURL: "http://www.oshanh.live/api/v1",
   withCredentials: true,
   headers: {
     "Content-Type": "application/json",
